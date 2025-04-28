@@ -1,0 +1,62 @@
+nav li {
+    border: 1px solid rgb(0, 0, 0);
+    width: 290px;
+    padding: 0px;
+    margin: 2px;
+    background: cornflowerblue;
+    color: white;
+    display:inline-block;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px #fbf588;
+    }
+    nav li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: background-color 3s, font-size 1s;
+        font-family: "canvas-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: size 100px;
+  color:white;
+        
+    }
+    
+    nav li a:hover {
+        background: rgb(25,17,150);
+    background: linear-gradient(142deg, rgb(2, 24, 68) 0%, rgb(3, 1, 97) 6%, rgb(94, 112, 247) 100%);
+    border-radius: 10px;
+    font-size: 48px;
+    }
+
+    section a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: background-color 3s, font-size 1s;
+        
+    }
+    
+    section a:hover {
+        background: rgb(25,17,150);
+        background: linear-gradient(142deg, rgb(2, 24, 68) 0%, rgb(3, 1, 97) 6%, rgb(94, 112, 247) 100%);
+    border-radius: 10px;
+    font-size: 48px;
+    }
+
+main a {
+    color:#2a9c03;
+    width:50px;
+    font-size:66px;
+}
+
+
+main a:visited {
+    color:#2a9c03;
+}
+
+.container a, .container a:visited {
+    color: #fbf588;
+}

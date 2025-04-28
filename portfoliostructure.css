@@ -1,0 +1,49 @@
+.ots {
+    grid-column:span 6;
+   
+  }
+.cdg {
+    grid-column:span 6;
+}
+
+section {
+    grid-column:span 6;
+}
+
+.infobox {
+    grid-column: span 3;
+}
+
+.videobox {
+    grid-column:span 9;
+}
+
+#myCarousel {
+   
+    grid-column:span 12;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding-bottom: -5px;
+    border: 20px solid cornflowerblue;
+    background:transparent;
+    border-radius: 20px;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.hunnid {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.unreleased {
+    grid-column: span 3;
+}
+
+.embed {
+    grid-column: span 9;
+}
